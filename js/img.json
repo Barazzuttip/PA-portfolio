@@ -1,0 +1,38 @@
+[
+    {
+      "src": "../assets/logo_ab.png",
+      "alt": "Imagen 1",
+      "id": "ab",
+      "link": "https://barazzuttip.github.io/git-proyecto/"
+    },
+    {
+      "src": "../assets/logo_bz.png",
+      "alt": "Imagen 2",
+      "id": "bz",
+      "link": "https://barazzuttip.github.io/barazzuttipdw/index.html"
+    },
+    {
+      "src": "../assets/logo_hacheshort.png",
+      "alt": "Imagen 3",
+      "id": "hache",
+      "link": "https://dev-hachetienda.pantheonsite.io/"
+    },
+    {
+      "src": "../assets/logo_minuto7.webp",
+      "alt": "Imagen 4",
+      "id": "minuto7",
+      "link": "https://minutoo7.com/"
+    },
+    {
+      "src": "../assets/logo_strauss.png",
+      "alt": "Imagen 5",
+      "id": "strauss",
+      "link": "https://barazzuttip.github.io/Strauss/"
+    },
+    {
+      "src": "../assets/logo_bz.png",
+      "alt": "Imagen 6",
+      "id": "portaf",
+      "link": "https://barazzuttip.github.io/portafolios-barazzutti/"
+    }
+  ]

@@ -1,0 +1,13 @@
+.modalBtn {
+    color: $soft;
+    background-color: $dark;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    transition: transform 0.5s ease, color 0.5s ease;
+    &:hover {
+        background-color: $soft;
+        color: $dark;
+        transform: scale(1.1);
+    }
+}

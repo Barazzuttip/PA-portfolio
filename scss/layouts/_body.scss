@@ -1,0 +1,216 @@
+.body-layout {
+    background-image: linear-gradient(to bottom, $dark, $color);
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-card {
+    font-family: $PrimaryFont !important;
+    color: $dark !important;
+}
+
+.subt-card {
+    font-family: $SdaryFont !important;
+}
+
+.btn-card {
+    font-family: $TryFont !important;
+}
+
+.infocard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark;
+    padding: 24px;
+    width: 60%;
+    border-radius: 24px;
+
+    .logocard {
+        img {
+            width: 154px;
+            padding-right: 100px;
+        }
+    }
+
+    .textcard {
+        span {
+            color: $accent;
+        }
+
+        font-family: $SdaryFont;
+        font-size: 18px;
+        color: $soft;
+        width: 50%;
+    }
+}
+
+.portfolios-layout {
+    background-image: linear-gradient(to bottom, $color, $soft);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-family: $PrimaryFont;
+        font-size: 24px;
+        color: $soft;
+        font-weight: 400;
+    }
+
+    .pf-grid-cont {
+        display: grid;
+        grid-template-columns: repeat(3, 300px); // 3 columnas de igual ancho
+        grid-template-rows: repeat(2, 200px);
+        overflow: hidden;
+        padding: 48px;
+        gap: 54px;
+
+        .pf-grid-item {
+            display: flex;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 14px;
+            box-shadow:
+                0px 4px 16px #000000;
+            transition: transform 0.5s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            .grid-img {
+                max-width: 300px !important;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+    }
+}
+
+.herramientas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    background-color: rgba($color: $dark, $alpha: 0.5);
+
+    .herramientas-logo {
+        width: 3%;
+    }
+}
+
+.footer-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+        width: 10%;
+    }
+}
+
+.redes {
+    width: 20%;
+    display: flex;
+
+    a {
+        margin: 24px;
+
+        img {
+            width: 100%;
+            transition: transform 0.5s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.modal-layout {
+    display: none;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+    color: rgba($color: #000000, $alpha: 0.5);
+    position: fixed;
+    /* Fija el modal en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Ocupa todo el ancho */
+    height: 100vh;
+    /* Ocupa toda la altura */
+    /* Centro con flexbox */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    z-index: 9999;
+}
+
+.modal-inner {
+    // background-color: rgba($color: #000000, $alpha: 0.4);
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    border-radius: 14px;
+
+    img {
+        max-width: 300px !important;
+        max-height: 200px;
+        border-radius: 14px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.img-modal {
+    border-radius: 14px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    // filter: brightness(0.4);
+}
+
+.divInfo-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: $soft;
+    padding: 14px;
+    width: 100%;
+}
+
+.modal-cont {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: $color;
+    background-image: linear-gradient(to top, $color, $soft);
+    border-radius: 12px;
+
+    img {
+        border-radius: 12px;
+        background-color: $dark;
+        padding: 4px;
+        // box-shadow: 0px 0px 12px $dark;
+        width: 124px !important;
+        height: 124px !important;
+        object-fit: contain;
+    }
+}

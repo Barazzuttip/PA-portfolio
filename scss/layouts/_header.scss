@@ -1,0 +1,45 @@
+@import '../base/variables';
+.header-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #303030;
+}
+
+.logo-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 96px;
+}
+
+.header-logo-cont {
+    display: flex;
+    align-items: center;
+}
+.title-type1{
+    font-family: $AltFont;
+    color: $soft;
+    font-weight: 500;
+}
+.nav-cont {
+    ul {
+        display: flex;
+        li {
+            list-style-type: none;
+            padding: 18px;
+            a {
+                text-decoration: none;
+                font-family: $SdaryFont;
+                color: $soft;
+                font-size: 18px;
+                transition: background-color 0.5s ease;
+                border-radius: 14px;
+                padding: 5px;
+                &:hover{
+                    color: $color;
+                    background-color: $soft;
+                }
+            }
+        }
+    }
+}
