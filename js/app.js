@@ -8,8 +8,17 @@ const modaldiv = document.getElementById("modal");
 const modalCont = document.getElementById("modalCont");
 const grid = document.getElementById("grid");
 
+const btn1 = document.getElementById("btn1");
+const btn2 = document.getElementById("btn2");
 
-
+const openCV = () => {
+    modaldiv.style.display = "flex";
+    let cv = document.createElement("img");
+    cv.src = "../assets/cv.png";
+    modalCont.className = "modal-cont2"
+    modalCont.append(cv);
+}
+btn1.addEventListener("click", () => openCV());
 
 
 

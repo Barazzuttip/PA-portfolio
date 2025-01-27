@@ -42,6 +42,8 @@
   transition: background-color 0.5s ease;
   border-radius: 14px;
   padding: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .nav-cont ul li a:hover {
   color: #008080;
@@ -242,6 +244,18 @@
   object-fit: contain;
 }
 
+.modal-cont2 {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.modal-cont2 img {
+  object-fit: contain;
+  width: 35%;
+}
+
 .acercadecont {
   display: flex;
   background-image: linear-gradient(to bottom, #008080, #fff);
@@ -294,18 +308,18 @@
   padding-right: 20px;
 }
 .acerca-cont .acerca-btn-cont .btn1:hover {
-  background-color: #EBEBEB;
-  color: #008080;
+  background-image: linear-gradient(to bottom, #008080, #303030);
+  color: #EBEBEB;
 }
 .acerca-cont .acerca-btn-cont .btn2 {
   background-color: #EBEBEB;
   color: #008080;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .acerca-cont .acerca-btn-cont .btn2:hover {
-  background-color: #008080;
-  color: #EBEBEB;
+  background-image: linear-gradient(to top, #008080, #EBEBEB);
+  color: #303030;
 }
 
 .modalBtn {
