@@ -93,8 +93,8 @@
 }
 
 .portfolios-layout {
-  background-image: linear-gradient(to bottom, #008080, #EBEBEB);
   display: flex;
+  background-color: #008080;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -240,6 +240,72 @@
   width: 124px !important;
   height: 124px !important;
   object-fit: contain;
+}
+
+.acercadecont {
+  display: flex;
+  background-image: linear-gradient(to bottom, #008080, #fff);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.acerca-cont {
+  border-radius: 14px;
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  padding: 15px;
+  padding-top: 54px;
+  align-items: center;
+  justify-content: center;
+}
+.acerca-cont .acerca-tit {
+  font-family: "Josefin Sans", serif;
+  color: #EBEBEB;
+  font-size: 36px;
+  font-weight: 500;
+}
+.acerca-cont .acerca-txt {
+  font-family: "Tinos", serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #303030;
+}
+.acerca-cont .acerca-btn-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.acerca-cont .acerca-btn-cont button {
+  padding: 4px;
+  font-family: "Tinos", serif;
+  font-size: 24px;
+  border: none;
+  box-shadow: 0 4px 12px #000000;
+  border-radius: 14px;
+}
+.acerca-cont .acerca-btn-cont .btn1 {
+  background-color: #008080;
+  color: #EBEBEB;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.acerca-cont .acerca-btn-cont .btn1:hover {
+  background-color: #EBEBEB;
+  color: #008080;
+}
+.acerca-cont .acerca-btn-cont .btn2 {
+  background-color: #EBEBEB;
+  color: #008080;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.acerca-cont .acerca-btn-cont .btn2:hover {
+  background-color: #008080;
+  color: #EBEBEB;
 }
 
 .modalBtn {

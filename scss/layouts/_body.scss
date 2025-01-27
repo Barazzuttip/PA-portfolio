@@ -48,8 +48,9 @@
 }
 
 .portfolios-layout {
-    background-image: linear-gradient(to bottom, $color, $soft);
+    // background-image: linear-gradient(to bottom, $color, $soft);
     display: flex;
+    background-color: $color;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -212,5 +213,70 @@
         width: 124px !important;
         height: 124px !important;
         object-fit: contain;
+    }
+}
+.acercadecont {
+    // margin-top: 54px ;
+    display: flex;
+    background-image:linear-gradient(to bottom, $color, #fff);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.acerca-cont {
+    border-radius: 14px;
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    padding: 15px;
+    padding-top: 54px;
+    align-items: center;
+    justify-content: center;
+    .acerca-tit{
+        font-family: $PrimaryFont;
+        color: $soft;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .acerca-txt {
+        font-family: $TryFont;
+        font-size: 24px;
+        font-weight: 400;
+        color: $dark;
+    }
+    .acerca-btn-cont {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        button {
+            padding: 4px;
+            font-family: $TryFont;
+            font-size: 24px;
+            border: none;
+            box-shadow: 0 4px 12px #000000;
+            border-radius: 14px;
+        }
+        .btn1{
+            background-color: $color;
+            color: $soft;
+            padding-left: 20px;
+            padding-right: 20px;
+            &:hover {
+                background-color: $soft;
+                color: $color;        
+            }
+        }
+        .btn2{
+            background-color: $soft;
+            color: $color;
+            padding-left: 6px;
+            padding-right: 6px;
+            &:hover {
+                background-color: $color;
+                color: $soft;        
+            }
+        }
     }
 }
