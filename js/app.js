@@ -14,7 +14,7 @@ const btn2 = document.getElementById("btn2");
 const openCV = () => {
     modaldiv.style.display = "flex";
     let cv = document.createElement("img");
-    cv.src = "../assets/cv.png";
+    cv.src = "./assets/cv.png";
     modalCont.className = "modal-cont2"
     modalCont.append(cv);
 }
