@@ -11,12 +11,20 @@ const grid = document.getElementById("grid");
 const btn1 = document.getElementById("btn1");
 const btn2 = document.getElementById("btn2");
 
+
+const closeCV = () => {
+    modaldiv.style.display = "none"
+    modalCont.className = "modal-cont";
+    modalCont.innerHTML = '';
+}
+
 const openCV = () => {
     modaldiv.style.display = "flex";
     let cv = document.createElement("img");
     cv.src = "./assets/cv.png";
-    modalCont.className = "modal-cont2"
+    modalCont.className = "modal-cont2";
     modalCont.append(cv);
+    modalCont.addEventListener("click", () => closeCV());
 }
 btn1.addEventListener("click", () => openCV());
 
