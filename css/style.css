@@ -336,4 +336,57 @@
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 1300px) {
+  .body-layout {
+    padding: 24px;
+  }
+  .infocard {
+    width: 100%;
+    padding: 12px;
+  }
+  .infocard .textcard {
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .infocard .logocard img {
+    width: 64px;
+    padding: 5px;
+  }
+  .pf-grid-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, 0.5fr) !important;
+    overflow: hidden;
+    padding: 48px;
+    gap: 12px !important;
+  }
+  .header-layout {
+    flex-direction: column-reverse;
+  }
+  .title-type1 {
+    font-family: "Merienda", serif;
+    color: #EBEBEB;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .nav-cont ul li a {
+    font-size: 14px;
+  }
+  .footer-layout {
+    padding-bottom: 24px;
+  }
+  .footer-layout img {
+    width: 50%;
+  }
+  .redes {
+    width: 20%;
+    flex-direction: column;
+  }
+  .acerca-txt {
+    font-size: 18px !important;
+    padding: 12px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
