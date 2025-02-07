@@ -364,6 +364,9 @@
   .header-layout {
     flex-direction: column-reverse;
   }
+  .header-layout .nav-cont ul li a {
+    text-align: center;
+  }
   .title-type1 {
     font-family: "Merienda", serif;
     color: #EBEBEB;
